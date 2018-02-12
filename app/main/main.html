@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" style="margin-top: 20px">
+            <table class="logimageGrid">
+                <tr data-ng-repeat="x in logimageArray track by $index" data-ng-init="rowIndex = $index">
+                    <td data-ng-repeat="y in x track by $index" data-ng-class="y === true ? 'black' : y === false ? 'white' : none" data-ng-click="clickCase(rowIndex, $index)">{{(y === true || y === false || y === -1) ? '' : y}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

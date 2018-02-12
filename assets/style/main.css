@@ -1,0 +1,14 @@
+table.logimageGrid td {
+    width: 20px;
+    height: 20px;
+}
+
+table.logimageGrid td.white {
+    background-color: white;
+    border: solid 1px;
+}
+
+table.logimageGrid td.black {
+    background-color: black;
+    border: solid 1px;
+}
